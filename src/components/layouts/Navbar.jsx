@@ -38,7 +38,7 @@ export const Navbar = () => {
 
         {/* logo */}
         <a href='/' className='cursor-pointer w-[160px] h-[30px] md:w-[386px] md:h-[66px]'>
-         <img src={logo} alt="" />
+         <img src={logo} alt=""/>
         </a>
 
         <button className="nav-btn nav-close-btn cursor-pointer " onClick={showNavbar} >
