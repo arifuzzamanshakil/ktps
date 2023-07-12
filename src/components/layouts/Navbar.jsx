@@ -23,7 +23,7 @@ export const Navbar = () => {
       <Language />
      </div>
 
-     <a href='/' className='cursor-pointer w-[160px] h-[30px] md:w-[386px] md:h-[66px]'>
+     <a href='/' className='cursor-pointer w-[160px] md:w-[386px] md:h-[66px]'>
       <img src={logo} alt="" />
      </a>
 
@@ -65,7 +65,7 @@ export const Navbar = () => {
       <button
        className="nav-btn text-gray-500 cursor-pointer"
        onClick={showNavbar}>
-       <img src={hamburger} alt="" className='w-[28px] h-[20px]' />
+       <img src={hamburger} alt="" className='' />
       </button>
      </div>
     </div>

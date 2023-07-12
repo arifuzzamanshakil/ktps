@@ -27,8 +27,6 @@ const Home = () => {
      <section id='footer'>
       <Footer/>
      </section>
-
-
     </div>
    </div>
   </div>
