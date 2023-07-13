@@ -14,7 +14,7 @@ function BtnBox() {
     data.map((getData, index) => (
      <div className="flex justify-between items-center lg:items-start flex-col lg:flex-row gap-8 mx-auto">
 
-      <div className="md:w-[518px] md:h-[285px] border border-[#E5AEEE] rounded-[14px] py-8 md:py-10 px-9 md:px-[75px] bg-[#B158BF1A]">
+      <div className="lg:w-[518px] lg:h-[285px] md:w-[550px] border border-[#E5AEEE] rounded-[14px] py-8 md:py-10 px-9 xl:px-[75px] bg-[#B158BF1A]">
        <h2 className='md:text-5xl text-[28px] font-Rajdhani font-semibold tracking-[2.8px] md:tracking-[4.8px] drop-shadow-5xl text-white text-center'>{getData.checklist.boxTitle.en}</h2>
 
        <div className="flex flex-wrap justify-center md:px-4 pt-5 gap-6 ">
@@ -27,7 +27,7 @@ function BtnBox() {
 
       </div>
 
-      <div className="md:w-[518px] md:h-[285px] border border-[#E5AEEE] rounded-[14px] py-8 md:py-10 px-4 md:px-[75px] bg-[#B158BF1A]">
+      <div className="lg:w-[518px] lg:h-[285px] md:w-[550px] border border-[#E5AEEE] rounded-[14px] py-8 md:py-10 px-4 xl:px-[75px] bg-[#B158BF1A]">
        <h2 className='md:text-5xl text-[28px] font-Rajdhani font-semibold tracking-[2.8px] md:tracking-[4.8px] drop-shadow-5xl text-white m-auto text-center'>{getData.checklist.boxTitle2.en}</h2>
        <p className='text-base md:text-lg text-center text-white font-Inter font-normal drop-shadow-9xl pt-5'> {getData.checklist.boxPara.en} </p>
 

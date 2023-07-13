@@ -4,6 +4,7 @@ import Language from '../Language';
 
 
 
+
 export const Navbar = () => {
 
  // navbarToggle functionality
@@ -14,7 +15,9 @@ export const Navbar = () => {
   );
  };
 
+
  return (
+  
   <div className='px-0 fixed z-30'>
    <p className='text-sm h-[34px] text-center py-1 md:text-lg bg-[#130524] backdrop-blur-[13.5px] text-white tracking-[1.4px] md:tracking-[1.8px] w-screen pl-10'>IF THIS IS AN EMERGENCY - <strong>CALL 911</strong></p>
    <div className=' items-center px-4 pt-6 md:bg-[#2B0756] bg-none md:pt-0'>
@@ -38,10 +41,10 @@ export const Navbar = () => {
 
         {/* logo */}
         <a href='/' className='cursor-pointer w-[160px] h-[30px] md:w-[386px] md:h-[66px]'>
-         <img src={logo} alt=""/>
+         <img src={logo} alt="" />
         </a>
 
-        <button className="nav-btn nav-close-btn cursor-pointer " onClick={showNavbar} >
+        <button className="nav-btn nav-close-btn cursor-pointer" onClick={showNavbar} >
          <img src={closeButton} alt="" className='w-[30px] md:w-[44px]' />
         </button>
 
@@ -49,27 +52,24 @@ export const Navbar = () => {
 
        <ul className='text-center absolute md:relative top-24 mb-16'>
         <li className='py-5'>
-         <a className="text-[#FFEB00] tracking-[1.92px] nav-link text-[32px] font-Rajdhani font-medium" href="#details" onClick={showNavbar}>The Details</a>
+         <a className="text-[#FFEB00] tracking-[1.92px] nav-link text-[32px] font-Rajdhani font-medium" href="#details" onClick={showNavbar}> The Details </a>
         </li>
         <li className='py-5'>
-         <a className="text-[#FFEB00] tracking-[1.92px] nav-link text-[32px] font-Rajdhani font-medium" href="#checklist" onClick={showNavbar}>The Checklist</a>
+         <a className="text-[#FFEB00] tracking-[1.92px] nav-link text-[32px] font-Rajdhani font-medium" href="#checklist" onClick={showNavbar}> The Checklist </a>
         </li>
         <li className='py-5'>
-         <a className="text-[#FFEB00] tracking-[1.92px] nav-link text-[32px] font-Rajdhani font-medium" href="#unpack" onClick={showNavbar}>Unpack Your Checklist</a>
+         <a className="text-[#FFEB00] tracking-[1.92px] nav-link text-[32px] font-Rajdhani font-medium" href="#unpack" onClick={showNavbar}> Unpack Your Checklist </a>
         </li>
        </ul>
-       <button className="mt-12 border border-[#E5AEEE] border-solid rounded-[10px] py-3.5 px-0 font-Rajdhani font-bold text-[20px] text-[#FFC1E5] btn-shadow absolute bottom-10 md:bottom-0 md:relative w-[310px] mx-auto">START THE RESCUE PROCESS</button>
-
-
+       <button className="mt-12 border border-[#E5AEEE] border-solid rounded-[10px] py-3.5 px-0 font-Rajdhani font-bold text-[20px] text-[#FFC1E5] btn-shadow absolute bottom-10 md:bottom-0 md:relative w-[310px] mx-auto"> START THE RESCUE PROCESS </button>
       </nav>
       <button
        className="nav-btn text-gray-500 cursor-pointer"
        onClick={showNavbar}>
-       <img src={hamburger} alt="" className='' />
+       <img src={hamburger} alt="" />
       </button>
      </div>
     </div>
-
    </div>
   </div>
  );

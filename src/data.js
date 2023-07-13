@@ -4,7 +4,11 @@ const data = [
       "en": {
         "title": "Keep The Party Safe is a campaign that aims to reduce the number of fentanyl overdose deaths in Colorado by educating people about ways to prevent or reverse fentanyl overdoes.",
         "btnText": "See the Details"
+      },
+      "es":{
+        "title": "gdfgghfgh"
       }
+
     },
     "DetailsSec": {
       "pageTitle": {

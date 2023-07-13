@@ -5,7 +5,7 @@ import BtnBox from './layouts/BtnBox';
 
 const Checklist = () => {
  return (
-  <div className="h-full bg-cover bg-no-repeat bg-center pt-24 w-[335px] sm:w-[500px] md:w-[770px] lg:w-full  mx-auto">
+  <div className="h-full bg-cover bg-no-repeat bg-center pt-14 lg:pt-24 w-[335px] sm:w-[500px] md:w-[770px] lg:w-full  mx-auto">
    {
     data.map((getData, index) => (
 

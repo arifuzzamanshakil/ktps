@@ -10,7 +10,7 @@ const AccordionsecBox = () => {
      <div className='pt-5'>
       <p className='text-lg text-white font-Inter font-normal drop-shadow-8xl'>{getData.unpack.naloxPara1.en}</p>
 
-      <div className="flex items-center gap-16 pb-6 -mt-2">
+      <div className="flex flex-col lg:flex-row items-center gap-0 lg:gap-8 xl:gap-16 pb-6 -mt-2">
 
        <div className=''>
         <img src={ensure} alt="" className='mx-auto' />

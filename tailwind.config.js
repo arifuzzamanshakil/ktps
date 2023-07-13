@@ -6,7 +6,8 @@ module.exports = {
 
       fontFamily: {
         Rajdhani: "'Rajdhani', sans-serif",
-        Inter: "'Inter', sans-serif"
+        Inter: "'Inter', sans-serif",
+        Proxima: "'Proxima Nova', sans-serif",
       },
 
       dropShadow: {
@@ -20,7 +21,7 @@ module.exports = {
         "7xl": ['0px 0px 10px rgba(255, 255, 255, 0.90)'],
         "8xl": ['0px 0px 15px rgba(255, 255, 255, 0.90)'],
         "9xl": ['0px 0px 11px rgba(255, 255, 255, 0.50)'],
-        "10xl":[
+        "10xl": [
           '0px 0px 23.01886749267578px rgba(255, 244, 0, 0.59)',
           '0px 0px 8.05660343170166px rgba(255, 220, 0, 0.56)',
           '0px 0px 46.03773498535156px rgba(255, 231, 0, 0.47)',

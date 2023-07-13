@@ -14,13 +14,15 @@ const Home = () => {
     <div className='header'>
      <Header />
     </div>
-    <div className='main bg-no-repeat bg-cover bg-center'>
+    <div className='main bg-no-repeat bg-cover bg-center '>
      <section id='details'>
       <Details />
      </section>
      <section id='checklist'>
       <Checklist />
      </section>
+     {/* </div>
+     <div className='main bg-no-repeat bg-cover bg-center'> */}
      <section id='unpack'>
       <Unpack />
      </section>
