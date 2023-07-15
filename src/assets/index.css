@@ -18,6 +18,10 @@ body::-webkit-scrollbar {
  display: none;
 }
 
+.main {
+ background-image: url(../assets/img/bodyBg.png);
+}
+
 .heroSec {
  background-image: url(../assets/img/headBg.svg);
 }

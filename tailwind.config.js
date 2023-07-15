@@ -3,9 +3,6 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {
-      backgroundImage: {
-        "bodyBg": "url('../assets/img/bodyBg.png')",
-      },
       fontFamily: {
         Rajdhani: "'Rajdhani', sans-serif",
         Inter: "'Inter', sans-serif",
