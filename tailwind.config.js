@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "bodyBg": "url('/assets/img/bodyBg.png')",
+        "bodyBg": "url('../assets/img/bodyBg.png')",
       },
       fontFamily: {
         Rajdhani: "'Rajdhani', sans-serif",
