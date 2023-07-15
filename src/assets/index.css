@@ -8,19 +8,18 @@ body {
  padding: 0;
  scroll-behavior: smooth;
  overflow-x: hidden;
- 
+}
+
+html {
+ scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
  display: none;
 }
 
-.main {
- background: url(../assets/img/bodybg.png);
-}
-
 .heroSec {
- background-image: url(../assets/img/headbg.svg);
+ background-image: url(../assets/img/headBg.svg);
 }
 
 .triangle {
@@ -41,7 +40,7 @@ body::-webkit-scrollbar {
 }
 
 nav {
- background-image: url(../assets/img/navbg.png);
+ background-image: url(../assets/img/navBg.png);
 }
 
 .btn-shadow {
@@ -132,7 +131,6 @@ nav {
  border-radius: 4px;
 }
 
-
 /* When the checkbox is checked, add a blue background */
 .checkbox input:checked~.checkmark {
  background-color: #97E4FC;
@@ -166,7 +164,7 @@ nav {
 }
 
 .power {
- background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 5%, rgba(0, 0, 0, 0.7) 45%);
+ background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.55) 50.5%);
 }
 
 .footerBg {
@@ -176,4 +174,19 @@ nav {
 
 .footerBg h2 a {
  text-shadow: 0px 0px 4px #FF5AC0;
+}
+
+.langDrop {
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ appearance: none;
+}
+
+.select-styled {
+ background-color: #0047FF;
+ padding: 10px;
+}
+
+.select-styled:hover {
+ background-color: #FA00FF;
 }

@@ -7,13 +7,9 @@ const Carousel = () => {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    speed: 1500,
     autoplay: true,
-    speed: 500,
-    autoplaySpeed: 3000,
-    cssEase: "easeIn",
+    fade: true,
   };
 
   return (

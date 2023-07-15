@@ -14,7 +14,7 @@ const Home = () => {
     <div className='header'>
      <Header />
     </div>
-    <div className='main bg-no-repeat bg-cover bg-center '>
+    <div className="bg-bodyBg main bg-no-repeat bg-cover bg-center">
      <section id='details'>
       <Details />
      </section>

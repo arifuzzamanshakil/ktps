@@ -4,10 +4,6 @@ import data from "../../data";
 
 function BtnBox() {
 
- var settings = {
-  scroll: {}
- }
-
  return (
   <div>
    {
