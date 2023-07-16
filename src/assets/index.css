@@ -19,15 +19,15 @@ body::-webkit-scrollbar {
 }
 
 .main {
- background: url(img/bodybg.png);
+ background-image: url(img/bodybg.png);
 }
 
 .heroSec {
- background: url(img/headbg.svg);
+ background-image: url(img/headbg.svg);
 }
 
 .triangle {
- background: url(img/rec.png);
+ background-image: url(img/rec.png);
 }
 
 .triangle p {
@@ -44,7 +44,7 @@ body::-webkit-scrollbar {
 }
 
 nav {
- background: url(img/navbg.png);
+ background-image: url(img/navbg.png);
 }
 
 .btn-shadow {
