@@ -8,7 +8,6 @@ module.exports = {
         Inter: "'Inter', sans-serif",
         Proxima: "'Proxima Nova', sans-serif",
       },
-
       dropShadow: {
         "5xl": [
           '0px 0px 20px rgba(255, 244, 0, 0.59)',
