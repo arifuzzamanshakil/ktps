@@ -19,15 +19,15 @@ body::-webkit-scrollbar {
 }
 
 .main {
- background-image: url(../assets/img/bodybg.png);
+ background: url(../assets/img/bodybg.png);
 }
 
 .heroSec {
- background-image: url(../assets/img/headBg.svg);
+ background: url(../assets/img/headBg.svg);
 }
 
 .triangle {
- background-image: url(../assets/img/rec.png);
+ background: url(../assets/img/rec.png);
 }
 
 .triangle p {
@@ -44,7 +44,7 @@ body::-webkit-scrollbar {
 }
 
 nav {
- background-image: url(../assets/img/navBg.png);
+ background: url(../assets/img/navBg.png);
 }
 
 .btn-shadow {
