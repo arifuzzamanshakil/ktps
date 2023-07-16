@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
 }
 
 .heroSec {
- background: url(img/headBg.svg);
+ background: url(img/headbg.svg);
 }
 
 .triangle {
@@ -44,7 +44,7 @@ body::-webkit-scrollbar {
 }
 
 nav {
- background: url(img/navBg.png);
+ background: url(img/navbg.png);
 }
 
 .btn-shadow {
